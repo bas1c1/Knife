@@ -3,8 +3,8 @@ def StartListening(response, url) {
 	append("stack", response)
 	append("stack", url)
 
-	im = import_cs_class("first", "Knife")
-	ins = get_cs_class_inst("first", "Knife")
+	im = import_cs_class("Knife", "Knife")
+	ins = get_cs_class_inst("Knife", "Knife")
 	exec_cs_method(im, ins, "_listener", stack)
 }
 
