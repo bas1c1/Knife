@@ -3,11 +3,6 @@ use "cs"
 
 import("knife.oni")
 
-a = 5
-
-while (true) {
-	a++
-	StartListening(to_string(a), "http://localhost:8888/index/")
-}
+StartListening("Hello, world!", "http://localhost:8888/index/")
 
 stop()
