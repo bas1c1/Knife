@@ -1,2 +1,2 @@
 # Knife
-Knife library for Onion to listening http requests
+Knife library for GoScript to listening http requests
